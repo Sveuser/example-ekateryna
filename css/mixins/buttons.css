@@ -1,0 +1,90 @@
+/* ===================================================================
+BUTTON
+===================================================================  */
+/*_______ button-main ________*/
+.btn_main {
+  display: inline-block;
+  padding: 15px 55px 15px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: none;
+  text-decoration: none;
+  border: 2px solid #c83528;
+  position: relative;
+  z-index: 5;
+  overflow: hidden;
+}
+.btn_main:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #c83528;
+  z-index: -1;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.btn_main:hover:before {
+  height: 0;
+}
+.btn_main:focus:before {
+  height: 0;
+}
+.btn_main:active {
+  -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+          transform: scale(0.9);
+}
+/*_______ button-order ________*/
+/*_______ paginator ________*/
+.paginator {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  list-style: none;
+  margin: 20px 0;
+}
+.paginator li {
+  padding: 5px;
+}
+.paginator li a {
+  display: inline-block;
+  height: 38px;
+  width: 38px;
+  line-height: 38px;
+  text-align: center;
+  font-weight: 600;
+  background: #e0e0e0;
+  color: #000;
+  font-size: 14px;
+  text-decoration: none;
+}
+.paginator li a i {
+  position: relative;
+  top: 2px;
+}
+.paginator li a:hover {
+  background: #c83528;
+}
+.paginator li.active a {
+  background: #c83528;
+}
+/*_______ breadcrumps ________*/
+/*_______ networks ________*/

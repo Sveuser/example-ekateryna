@@ -1,0 +1,140 @@
+/* ===================================================================
+TYPOGRAPHY
+===================================================================  */
+b,
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+a {
+  color: #c83528;
+  text-decoration: underline;
+}
+a:hover {
+  color: #e27167;
+  text-decoration: none;
+}
+a:focus {
+  color: #e27167;
+  text-decoration: none;
+}
+p {
+  font-size: 16px;
+  color: #737373;
+  font-weight: normal;
+  line-height: 25px;
+  margin: 0;
+  padding-bottom: 25px;
+}
+ul {
+  padding-left: 15px;
+  padding-bottom: 25px;
+  margin: 0;
+  list-style: disc;
+}
+ul li {
+  font-size: 14px;
+  color: #000;
+  font-weight: normal;
+  padding: 5px 0;
+  line-height: 22px;
+}
+ul li p {
+  padding: 0;
+}
+ol {
+  padding-left: 15px;
+  padding-bottom: 25px;
+  margin: 0;
+  list-style: decimal;
+}
+ol li {
+  font-size: 14px;
+  color: #000;
+  font-weight: normal;
+  padding: 5px 0;
+  line-height: 22px;
+}
+ol li p {
+  padding: 0;
+}
+h1 {
+  margin: 0;
+  font-size: 30px;
+  line-height: 34px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+h2 {
+  margin: 0;
+  font-size: 28px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+h3 {
+  margin: 0;
+  font-size: 26px;
+  line-height: 36px;
+  color: #737373;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+h4 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+h5 {
+  margin: 0;
+  font-size: 22px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+h6 {
+  margin: 0;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #c83528;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.block_caption_main {
+  padding-bottom: 30px;
+  margin-bottom: 70px;
+  text-align: center;
+  position: relative;
+}
+.block_caption_main:before {
+  content: '';
+  position: absolute;
+  width: 40%;
+  height: 1px;
+  background: #b4b4b4;
+  left: 50%;
+  margin-left: -20%;
+  bottom: 0;
+}
+.block_caption_main .caption_main {
+  padding: 0px 0;
+  margin: 0;
+  font-size: 35px;
+  color: #222220;
+  text-transform: uppercase;
+  font-weight: bold;
+}
